@@ -6,9 +6,9 @@ Update this file after every completed feature. Any AI agent reading this should
 
 ## Current Status
 
-**Phase:**
-**Last completed:**
-**Next:**
+**Phase:** Phase 1 - Foundation
+**Last completed:** 01 Homepage
+**Next:** 02 Auth
 
 ---
 
@@ -16,7 +16,7 @@ Update this file after every completed feature. Any AI agent reading this should
 
 ### Phase 1 — Foundation
 
-- [ ] 01 Homepage
+- [x] 01 Homepage
 - [ ] 02 Auth
 - [ ] 03 PostHog Initialization
 - [ ] 04 Database Schema
@@ -50,10 +50,11 @@ Update this file after every completed feature. Any AI agent reading this should
 
 ## Decisions Made During Build
 
-_Add decisions here as they are made during implementation._
+- Built homepage first with full static UI and real design assets before wiring auth/data logic.
+- Reused existing image assets from `public/images` and `public/logo.png` to match provided visual exactly.
 
 ---
 
 ## Notes
 
-_Add notes here as the build progresses — workarounds, patterns, anything that differs from the context files._
+- Homepage implemented in `app/page.tsx` with responsive behavior for mobile while preserving desktop design fidelity.
