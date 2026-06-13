@@ -68,8 +68,8 @@ function GradientBand({
 
 export default function Home() {
   return (
-    <main className="mx-auto min-h-screen max-w-[1280px] overflow-hidden border-x border-border bg-surface text-text-primary">
-      <header className="flex h-[72px] items-center justify-between border-b border-border px-10">
+    <main className="mx-auto min-h-screen max-w-7xl overflow-hidden border-x border-border bg-surface text-text-primary">
+      <header className="flex h-18 items-center justify-between border-b border-border px-10">
         <Image
           src="/logo.png"
           alt="JobPilot"
@@ -111,7 +111,7 @@ export default function Home() {
       </GradientBand>
 
       <section className="border-b border-border bg-surface-tertiary px-12 py-12">
-        <div className="mx-auto max-w-[1040px]">
+        <div className="mx-auto max-w-260">
           <Image
             src="/images/dashboard-demo.png"
             alt="JobPilot dashboard showing job metrics and company research activity"
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       <section className="grid border-b border-border md:grid-cols-2">
-        <div className="border-r border-border bg-[linear-gradient(90deg,rgba(231,234,243,0.82)_1px,transparent_1px),linear-gradient(180deg,rgba(231,234,243,0.82)_1px,transparent_1px)] bg-[length:112px_112px]">
+        <div className="border-r border-border bg-[linear-gradient(90deg,rgba(231,234,243,0.82)_1px,transparent_1px),linear-gradient(180deg,rgba(231,234,243,0.82)_1px,transparent_1px)] bg-size-[112px_112px]">
           <div className="px-16 py-16">
             <h2 className="max-w-md text-[38px] font-extrabold leading-[1.03] text-text-slate">
               Manage Your Job
@@ -168,10 +168,10 @@ export default function Home() {
             alt="Agent log showing JobPilot automation steps"
             width={1072}
             height={828}
-            className="w-full max-w-[480px] rounded-md"
+            className="w-full max-w-120 rounded-md"
           />
         </div>
-        <div className="bg-[linear-gradient(90deg,rgba(231,234,243,0.72)_1px,transparent_1px),linear-gradient(180deg,rgba(231,234,243,0.72)_1px,transparent_1px)] bg-[length:112px_112px]">
+        <div className="bg-[linear-gradient(90deg,rgba(231,234,243,0.72)_1px,transparent_1px),linear-gradient(180deg,rgba(231,234,243,0.72)_1px,transparent_1px)] bg-size-[112px_112px]">
           <div className="px-16 py-16">
             <h2 className="max-w-md text-[38px] font-extrabold leading-[1.03] text-text-slate">
               Apply With More
